@@ -102,9 +102,7 @@ Ocorrência: `id, trecho_id, tipo_objeto, origem, status (nova | notificada | es
 - A API usada nos testes é simulada; a integração final depende da API do grupo seguir o contrato acima.
 - Notificação por e-mail via SMTP; outros canais (Telegram, WhatsApp) não implementados.
 
-## Links
-- Vídeo: _colar link_
-- Repositório: _colar link_
+
 
 
 
