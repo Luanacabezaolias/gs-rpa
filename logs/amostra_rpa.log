@@ -1,0 +1,22 @@
+2026-11-06 00:22:30,376 | INFO | === Inicio da rodada ===
+2026-11-06 00:22:30,379 | INFO | Etapa novas: 5 ocorrencia(s) para processar
+2026-11-06 00:22:30,384 | INFO | oc=1 NOTIFICADA prioridade=alta para=m***@exemplo.com
+2026-11-06 00:22:30,385 | INFO | oc=2 DUPLICADA de oc=1 (trecho=T1)
+2026-11-06 00:22:30,389 | INFO | oc=3 NOTIFICADA prioridade=media para=j***@exemplo.com
+2026-11-06 00:22:30,391 | WARNING | oc=4 trecho=T3 SEM RESPONSAVEL cadastrado; requer acao manual
+2026-11-06 00:22:30,392 | ERROR | oc=5 notificacao falhou (destinatario invalido); segue 'nova' para nova tentativa
+2026-11-06 00:22:30,394 | INFO | Etapa pendentes: 4 ocorrencia(s) em acompanhamento
+2026-11-06 00:22:30,401 | INFO | oc=6 ESCALADA para 2 destinatario(s)
+2026-11-06 00:22:30,404 | INFO | oc=7 RESOLVIDA (inspecao confirmou trecho livre)
+2026-11-06 00:22:30,404 | INFO | === Fim da rodada: {'processadas': 5, 'notificadas': 2, 'duplicadas': 1, 'escaladas': 1, 'resolvidas': 1, 'falhas': 1, 'sem_responsavel': 1} ===
+2026-11-06 00:22:30,559 | INFO | === Inicio da rodada ===
+2026-11-06 00:22:30,562 | INFO | Etapa novas: 2 ocorrencia(s) para processar
+2026-11-06 00:22:30,564 | WARNING | oc=4 trecho=T3 SEM RESPONSAVEL cadastrado; requer acao manual
+2026-11-06 00:22:30,566 | ERROR | oc=5 notificacao falhou (destinatario invalido); segue 'nova' para nova tentativa
+2026-11-06 00:22:30,567 | INFO | Etapa pendentes: 3 ocorrencia(s) em acompanhamento
+2026-11-06 00:22:30,571 | INFO | === Fim da rodada: {'processadas': 2, 'notificadas': 0, 'duplicadas': 0, 'escaladas': 0, 'resolvidas': 0, 'falhas': 1, 'sem_responsavel': 1} ===
+2026-11-06 00:22:35,110 | INFO | === Inicio da rodada ===
+2026-11-06 00:22:35,111 | WARNING | API tentativa 1/3 falhou: ConnectionError
+2026-11-06 00:22:35,313 | WARNING | API tentativa 2/3 falhou: ConnectionError
+2026-11-06 00:22:35,715 | WARNING | API tentativa 3/3 falhou: ConnectionError
+2026-11-06 00:22:35,715 | ERROR | ABORTADO: API indisponivel apos 3 tentativas

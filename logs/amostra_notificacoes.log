@@ -1,0 +1,16 @@
+2026-11-06T00:22:30 | para=m***@exemplo.com | [AccessFlow] Obstrucao em 'Entrada principal' (prioridade alta)
+Objeto detectado: caixa.
+Trecho: Entrada principal.
+Prazo para resolver: 30 min.
+---
+2026-11-06T00:22:30 | para=j***@exemplo.com | [AccessFlow] Obstrucao em 'Corredor da recepcao' (prioridade media)
+Objeto detectado: carrinho.
+Trecho: Corredor da recepcao.
+Prazo para resolver: 120 min.
+---
+2026-11-06T00:22:30 | para=j***@exemplo.com | [AccessFlow] URGENTE: prazo vencido em 'Corredor da recepcao'
+A obstrucao (cadeira) segue sem resolucao alem do prazo.
+---
+2026-11-06T00:22:30 | para=s***@exemplo.com | [AccessFlow] URGENTE: prazo vencido em 'Corredor da recepcao'
+A obstrucao (cadeira) segue sem resolucao alem do prazo.
+---
